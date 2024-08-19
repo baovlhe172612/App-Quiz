@@ -1,0 +1,19 @@
+.card-body {
+    min-height: 200px;
+  }
+  h1.display-4 {
+    font-size: 3.5rem; /* Kích thước lớn cho tiêu đề */
+    font-weight: 700; /* Đậm hơn */
+    color: #2c3e50; /* Màu sắc đậm, dễ đọc */
+    text-align: center; /* Căn giữa */
+    margin-top: 1.5rem; /* Khoảng cách trên tiêu đề */
+    margin-bottom: 1rem; /* Khoảng cách dưới tiêu đề */
+    letter-spacing: 1.5px; /* Giãn khoảng cách giữa các chữ */
+    text-transform: uppercase; /* Chuyển sang chữ in hoa */
+    text-shadow: 2px 4px 6px rgba(0, 0, 0, 0.3); /* Đổ bóng chữ */
+  }
+  
+  h1.display-4 span {
+    color: #e74c3c; /* Màu khác nổi bật cho các phần văn bản được bao quanh bằng <span> */
+  }
+  

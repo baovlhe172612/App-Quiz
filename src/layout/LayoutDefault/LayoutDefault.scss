@@ -1,0 +1,77 @@
+.layout-default {
+    &__header {
+        background-color: orange;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px 20px;
+        font-weight: 600 ;
+    }
+
+    
+
+    &__main {
+        padding: 20px;
+    }
+
+    &__footer {
+        background-color: orange;
+        text-align: center;
+        padding: 20px 20px;
+    }
+    &__account {
+        display: flex;
+      
+        gap: 20px; // Khoảng cách giữa các phần tử
+        a {
+            text-decoration: none;
+        }
+    }
+}
+.menu {
+    ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+
+    li {
+        margin-left: 20px;
+        position: relative;
+        
+    }
+    a {
+        text-decoration: none;
+    }
+}
+
+    &__link {
+        color: #000;
+
+        text-decoration: none;
+
+        &--active {
+            color: white;
+        }
+    }
+    &__sub{
+        position: absolute;
+        // top: 100%;
+        background-color:orangered;
+        // transform: translate(-30%, 50%);
+        right: 0;
+        display: none!important;
+        flex-direction: column;
+        li {
+            margin: 0;
+        }
+        a{
+            display: block;
+            padding: 5px;
+        }
+    }
+    li:hover >  &__sub{
+        display: flex!important;
+    }
+}
+

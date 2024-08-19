@@ -1,0 +1,34 @@
+// Topic.scss
+
+.table {
+    margin-top: 20px;
+    border-radius: 0.5rem;
+  }
+  
+  .table th,
+  .table td {
+    text-align: center;
+  }
+  
+  .table thead {
+    background-color: #f8f9fa;
+  }
+  
+  .table tbody tr:hover {
+    background-color: #e9ecef;
+  }
+  
+  .table th {
+    background-color: #343a40;
+    color: white;
+  }
+  
+  h2 {
+    font-size: 2rem;
+    font-weight: 500;
+  }
+  
+  button {
+    font-size: 0.875rem;
+  }
+  

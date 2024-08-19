@@ -1,0 +1,71 @@
+/* Result.css */
+
+.answer__list {
+    margin-top: 20px;
+  }
+  
+  .answer__item {
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    background-color: #f9f9f9;
+  }
+  
+  .form-quiz__item {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .form-quiz__item:last-child {
+    border-bottom: none;
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+  }
+  
+  .result__tag {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-left: 10px;
+  }
+  
+  .result__tag--true {
+    color: green;
+  }
+  
+  .result__tag--false {
+    color: red;
+  }
+  
+  .form-quiz__answer {
+    margin-bottom: 10px;
+  }
+  
+  input[type="radio"] {
+    margin-right: 10px;
+  }
+  
+  label {
+    font-size: 1rem;
+  }
+  
+  .result__item--selected {
+    color: red;
+    font-weight: bold;
+  }
+  
+  .result__item--result {
+    color: green;
+    font-weight: bold;
+  }
+  

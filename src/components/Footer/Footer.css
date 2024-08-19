@@ -1,0 +1,39 @@
+.layout-default__footer {
+  background-color: #343a40; /* Dark theme */
+  color: #ffffff;
+  
+  .footer-section {
+    flex: 1;
+    margin-bottom: 1.5rem;
+
+    h5 {
+      font-size: 1.25rem;
+      margin-bottom: 1rem;
+    }
+
+    p {
+      margin: 0;
+      font-size: 0.9rem;
+    }
+
+    a {
+      color: #ffffff;
+      text-decoration: none;
+      &:hover {
+        text-decoration: underline;
+        color: #f8f9fa;
+      }
+    }
+
+    .fab {
+      transition: color 0.3s ease;
+      &:hover {
+        color: #00acee;
+      }
+    }
+  }
+
+  .text-center {
+    font-size: 0.875rem;
+  }
+}
